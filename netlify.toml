@@ -1,5 +1,5 @@
 [build]
-  publish = "d:/桌面/ajhdsajd"
+  publish = "."
   command = "echo 'No build command needed for static site'"
 
 [build.environment]
