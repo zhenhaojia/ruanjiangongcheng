@@ -1,0 +1,20 @@
+{
+  "name": "creative-works-platform",
+  "version": "1.0.0",
+  "description": "创意作品展示查询平台",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "build": "echo 'Build complete - static files ready for deployment'",
+    "serve": "python -m http.server 8080"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["creative", "works", "platform", "supabase", "netlify"],
+  "author": "Student Project",
+  "license": "MIT"
+}
